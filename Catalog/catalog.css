@@ -1,0 +1,177 @@
+body {
+    background-image: url(/Books/Catalog/Home/img/photo-1481627834876-b7833e8f5570.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    white-space: normal;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    max-height: 50px;
+    border-radius: 25px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a:hover {
+    color: #fff;
+    background-color: #555;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-right: 20px;
+    padding: 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.main-serch {
+    width: 40%;
+    padding: 20px;
+}
+
+.search-bar {
+    width: 70%;
+    background-color: #f2f2f2;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    color: gray;
+}
+
+.search-icon {
+    padding: 10px;
+}
+
+.filter-options {
+    display: grid;
+    color: bisque;
+    gap: 20px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+a {
+    font-size: 22px;
+    color: bisque;
+}
+
+.resetFilters {
+    width: 70%;
+    margin-top: 40%;
+    padding: 5%;
+    color: azure;
+    background-color: darkred;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.resetFilters:hover {
+    background-color: azure;
+    color: darkred;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.book img {
+    width: 20%;
+    height: auto;
+}
+
+.book:hover {
+    transform: scale(1.1);
+}
+
+.book-title {
+    font-weight: bold;
+    color: azure;
+    font-size: larger;
+}
+
+.book:hover .book-title {
+    color: #007bff;
+    text-decoration: underline;
+    margin: 2px;
+    padding: 5px;
+}
+
+.book-author,
+.book-availability {
+    color: rgb(253, 211, 155);
+    padding: 5px;
+}
+
+.load-more-buttonDev {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+.load-more-button {
+    width: 40%;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 25px;
+    background-color: bisque;
+    color: #555;
+    padding: 1%;
+}
+
+footer {
+    background-color: #333;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.contact-details,
+.library-hours,
+.helpful-links {
+    width: 30%;
+}
+
+footer a {
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+footer a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
